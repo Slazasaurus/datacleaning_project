@@ -35,8 +35,8 @@ run_analysis <- function(dir) {
   # Now we take the data, group it by Subject and Activity
   # and apply the mean function to each column by group
   groups <- lapply(names(result_A)[1:2], as.symbol)
-  result <- x %>% group_by_(.dots=groups) %>% summarise_each(funs(mean))
+  result <- result_A %>% group_by_(.dots=groups) %>% summarise_each(funs(mean))
   # We return the result for debugging if desired.
-  write.table(result, file="clean_data.txt")
-  result_A
+  write.table(result, file="clean_data.txt", row.name =FALSE)
+  result
 }
