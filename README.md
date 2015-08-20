@@ -1,5 +1,7 @@
 # datacleaning_project
 
+## Description of Steps
+
 This script cleans the data from the url:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -35,3 +37,11 @@ This represents steps 1-4 of the assignment.
 
 In step 5, dplyr was used to group the data frame by the Subjects and Activity.Name
 columns, and then apply mean to each grouping. This provides the final result.
+
+## Reading the Data
+
+You can read the data into R using, e.g.:
+data <- read.table("clean_data.txt", header = TRUE)
+View(data
+
+After downloading the clean data.
