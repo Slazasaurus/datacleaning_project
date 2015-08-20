@@ -80,46 +80,89 @@ that HERE they represent the MEAN BY SUBJECT AND ACTIVITY of the value they prev
 - tBodyAccJerkMag-mean() : The mean of the mean of the Euclidean magnitude of the derivative of the triaxial acceleration.
 
 - tBodyAccJerkMag-std() : The mean of the standard deviation of the Euclidean magnitude of the derivative of the triaxial acceleration.
+
 - tBodyGyroMag-mean() : The mean of the mean of the Euclidean magnitude of the angular acceleration.
+
 - tBodyGyroMag-std() : The mean of the standard deviation of the Euclidean magnitude of the angular acceleration.
+
 - tBodyGyroJerkMag-mean() : The mean of the mean of the Euclidean magnitude of the derivative of the angular acceleration.
+
 - tBodyGyroJerkMag-std() : The mean of the standard deviation of the Euclidean magnitude of the derivative of the angular acceleration.
+
 - fBodyAcc-mean()-X : The mean of the mean of the Fast Fourier Transform of the acceleration along the x coordinate.
+
 - fBodyAcc-mean()-Y : The mean of the mean of the Fast Fourier Transform of the acceleration along the y coordinate.
+
 - fBodyAcc-mean()-Z : The mean of the mean of the Fast Fourier Trnasform of the acceleration along the z coordinate.
+
 - fBodyAcc-std()-X : The mean of the standard deviation of the Fast Fourier Transform of the acceleration along the x coordinate.
+
 - fBodyAcc-std()-Y : The mean of the standard deviation of the Fast Fourier Transform of the acceleration along the y coordinate.
+
 - fBodyAcc-std()-Z : The mean of the standard deviation of the Fast Fourier Transform of the acceleration along the z coordinate.
+
 - fBodyAcc-meanFreq()-X : The mean frequency of the Fast Fourier Transform of the acceleration along the x coordinate.
+
 - fBodyAcc-meanFreq()-Y : The mean frequency of the Fast Fourier Transform of the acceleration along the y coordinate.
+
 - fBodyAcc-meanFreq()-Z : The mean frequency of the Fast Fourier Transform of the acceleration along the z coordinate.
+
 - fBodyAccJerk-mean()-X : The mean of the mean of the Fast Fourier Transform of the derivative of the acceleration along the x coordinate.
+
 - fBodyAccJerk-mean()-Y : The mean of the mean of the Fast Fourier Transform of the derivative of the acceleration along the y coordinate.
+
 - fBodyAccJerk-mean()-Z : The mean of the mean of the Fast Fourier Transform of the derivative of the acceleration along the z coordinate.
+
 - fBodyAccJerk-std()-X : The mean of the standard deviation of the Fast Fourier Transform of the derivative of the acceleration along the x coordinate.
+
 - fBodyAccJerk-std()-Y : The mean of the standard deviation of the Fast Fourier Transform of the derivative of the acceleration along the y coordinate.
+
 - fBodyAccJerk-std()-Z : The mean of the standard deviation of the Fast Fourier Transform of the derivative of the acceleration along the z axis.
+
 - fBodyGyro-mean()-X : The mean of the mean of the Fast Fourier Transform of the angular acceleration about the x axis.
+
 - fBodyGyro-mean()-Y : The mean of the mean of the Fast Fourier Transform of the angular acceleration about the y axis.
+
 - fBodyGyro-mean()-Z : The mean of the mean of the Fast Fourier Transform of the angular acceleration about the z axis.
+
 - fBodyGyro-std()-X : The mean of the standard deviation of the Fast Fourier Transform of the angular acceleration about the x axis.
+
 - fBodyGyro-std()-Y : The mean of the standard deviation of the Fast Fourier Transform of the angular acceleration about the y axis.
+
 - fBodyGyro-std()-Z : The mean of the standard deviation of the Fast Fourier Transform of the angular acceleration about the z axis.
+
 - fBodyGyro-meanFreq()-X : The mean of the mean frequency of the Fast Fourier Transform of the angular acceleration about the x axis.
+
 - fBodyGyro-meanFreq()-Y : The mean of the mean frequency of the Fast Fourier Transform of the angular acceleration about the y axis.
+
 - fBodyGyro-meanFreq()-Z : The mean of the mean frequency of the Fast Fourier Transform of the angular acceleration about the z axis.
+
 - fBodyAccMag-mean() : The mean of the mean of the Fast Fourier Transform of the Euclidean Magnitude of the acceleration.
+
 - fBodyAccMag-std() : The mean of the standard deviation of the Fast Fourier Transform of the Euclidean magnitude of the acceleration.
+
 - fBodyBodyAccJerkMag-mean() : The mean of the mean of the Fast Fourier Transform of the Euclidean magnitude of the derivative of the acceleration.
+
 - fBodyBodyAccJerkMag-std() : The mean of the standard deviation of the Fast Fourier Transform of the Euclidean magnitude of the derivative of the accleration.
+
 - fBodyBodyGyroMag-mean() : The mean of the mean of the Fast Fourier Transform of the Euclidean magnitude of the angular acceleration.
+
 - fBodyBodyGyroMag-std() : The mean of the standard deviation of the Fast Fourier Transform of the Euclidean magnitude of the angular acceleration.
+
 - fBodyBodyGyroJerkMag-mean() : The mean of the mean of the Fast Fourier Transform of the Euclidean magnitude of the derivative of the angular acceleration.
+
 - fBodyBodyGyroJerkMag-std() : The mean of the standard deviation of the Fast Fourier Transform of the Euclidean magnitude of the derivative of the angular acceleratio.
+
 - angle(tBodyAccMena,gravity) : The mean of the average angle of the accleration and the average accleration due to gravity.
+
 - angle(tBodyAccJerkMean), gravityMean) : The mean of the average angle of the derivative of the accleration and the average acceleration due to gravity.
+
 - angle(tBodyGyroMean, gravityMean) : The mean of the average angle of the angular acceleration and the average acceleration due to gravity. 
+
 - angle(tBodyGyroJerkMean, gravityMean) : The mean of the average angle of the derivative of the angular acceleration and the average acceleration due to gravity.
+
 - angle(X, gravityMean) : The mean of the average angle of the x coordinate and the average acceleration due to gravity.
+
 - angle(Y, gravityMean) : The mean of the average angle of the y coordinate and the average acceleration due to gravity.
+
 - angle(Z, gravityMean) : The mean of the average angle of the z coordinate and the average acceleration due to gravity.
