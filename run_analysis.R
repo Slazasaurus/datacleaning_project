@@ -1,4 +1,5 @@
-run_analysis <- function(dir) {
+run_analysis <- function(dir, debug=FALSE) {
+  library(dplyr)
   orig <- getwd()
   setwd(dir)
   features <- read.table("features.txt")$V2
@@ -38,5 +39,7 @@ run_analysis <- function(dir) {
   result <- result_A %>% group_by_(.dots=groups) %>% summarise_each(funs(mean))
   # We return the result for debugging if desired.
   write.table(result, file="clean_data.txt", row.name =FALSE)
-  result
+  if(debug) {
+    return(result)
+  }
 }
